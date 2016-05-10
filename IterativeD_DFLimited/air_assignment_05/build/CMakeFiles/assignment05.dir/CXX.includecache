@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/agent.hpp
+vector
+-
+utility
+-
+string
+-
+
+/home/garima/Documents/5. AI/03-05-2016/air_assignment_05/src/agent.cpp
+agent.hpp
+/home/garima/Documents/5. AI/03-05-2016/air_assignment_05/src/agent.hpp
+iostream
+-
+string
+-
+unistd.h
+-
+chrono
+-
+thread
+-
+
